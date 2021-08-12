@@ -18,12 +18,3 @@ double bacteriaRecursiva(double num)
 	}
 	return crecimientoDiario * bacteriaRecursiva(num-1);
 }
-/*
-int main()
-{	
-	double num;
-	cin >> num;
-	cout << bacteriaRecursiva(num) << "\n";
-	cout << bacteriaIterativa(num);
-}
-*/

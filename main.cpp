@@ -10,9 +10,9 @@ using std::endl;
 int main()
 {
 	int opcion;
-	while (opcion > 2)
+	while (opcion > 3)
 	{
-		cout << "0. Factorial\n1. Fibonacci\n2. Potencia\nElige uno: ";
+		cout << "0. Factorial\n1. Fibonacci\n2. Potencia\n3. Crecimiento bacterial\nElige uno: ";
 		cin >> opcion;
 		if (opcion == 0)
 		{
@@ -49,6 +49,15 @@ int main()
 			cin >> y;
 			cout << "Potencia iterativa: " << potenciaIterativa(x, y) << endl;
 			cout << "Potencia recursiva: " << potenciaRecursiva(x, y) << endl;
+		}
+		else if (opcion == 3)
+		{
+			double num;
+			cout << "La bacteria crece un 378% cada dia en un laboratorio\n";
+			cout << "Que dia es?: ";
+			cin >> num;
+			cout << "Bacteria en dia " << num << " (recursiva): " << bacteriaRecursiva(num) << "\n";
+			cout << "Bacteria en dia " << num << " (iterativa): " << bacteriaIterativa(num);
 		}
 	}
 }
