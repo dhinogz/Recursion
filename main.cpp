@@ -5,6 +5,7 @@ using std::endl;
 #include "Factorial.h"
 #include "Fibonacci.h"
 #include "Potencia.h"
+#include "Bacteria.h"
 
 int main()
 {
