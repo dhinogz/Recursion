@@ -11,7 +11,7 @@ int main()
 	int opcion;
 	while (opcion > 2)
 	{
-		cout << "0: Factorial\n1: Fibonacci\n2. Potencia\n";
+		cout << "0. Factorial\n1. Fibonacci\n2. Potencia\nElige uno: ";
 		cin >> opcion;
 		if (opcion == 0)
 		{
