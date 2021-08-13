@@ -29,7 +29,7 @@ int main()
 		}
 		else if (opcion == 1)
 		{
-			int num;
+			long long num;
 			cout << "Fibonacci de: ";
 			cin >> num;
 			if (num <= 0)

@@ -1,4 +1,4 @@
-int fibonacciRecursiva(int num)
+long long fibonacciRecursiva(long long num)
 {
 	if (num <= 1)
 	{
@@ -8,11 +8,11 @@ int fibonacciRecursiva(int num)
 	 
 }
 
-int fibonacciIterativa(int num)
+long long fibonacciIterativa(long long num)
 {
-	int F0;
-	int F1 = 0;
-	int F = 1;
+	long long F0;
+	long long F1 = 0;
+	long long F = 1;
 	for (int i = 1; i < num; i++)
 	{
 		F0 = F1;
